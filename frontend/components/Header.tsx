@@ -44,7 +44,6 @@ export function Header() {
                 </span>
 
                 {/* DROPDOWN MENU */}
-                {/* Ajustei o posicionamento e adicionei o botão de Sair */}
                 <div className="absolute top-full right-0 mt-2 w-48 bg-white border border-slate-200 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 overflow-hidden">
 
                   {/* Link Perfil */}
@@ -52,7 +51,7 @@ export function Header() {
                     Meu Perfil
                   </Link>
 
-                  {/* Botão Sair - Agora vive aqui! */}
+                  {/* Botão Sair  */}
                   <button
                     onClick={handleLogout}
                     className="block w-full text-left px-4 py-3 text-sm text-red-600 hover:bg-red-50 hover:text-red-700 transition-colors font-medium"
