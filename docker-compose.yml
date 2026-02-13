@@ -1,0 +1,24 @@
+
+services:
+  # Banco de Dados Principal
+  postgres:
+    image: postgres:15-alpine
+    container_name: lastros_db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin_password
+      POSTGRES_DB: lastros_main
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Redis (Para filas de mensageria e cache - Módulo de Delivery/iFood)
+  redis:
+    image: redis:alpine
+    container_name: lastros_queue
+    ports:
+      - "6379:6379"
+
+volumes:
+  postgres_data:
