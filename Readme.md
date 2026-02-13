@@ -46,6 +46,36 @@
 
 ## Overview
 
+🚀 Lastros ERP - Sistema de Gestão para Restaurantes
+O Lastros é uma plataforma completa de gestão desenvolvida para simplificar a operação de restaurantes, bares e lanchonetes. O sistema centraliza desde o atendimento na frente de caixa até o controle financeiro e de estoque em uma interface moderna e intuitiva.
+
+📋 Visão Geral
+O projeto foi concebido para resolver a fragmentação de processos em estabelecimentos gastronômicos. Com o Lastros, o gestor tem uma visão 360° do negócio em tempo real, permitindo decisões rápidas baseadas em dados concretos de vendas e produtividade.
+
+✨ Funcionalidades Principais
+Dashboard Operacional: Visualização instantânea de KPIs como vendas do dia, ticket médio, pedidos em aberto e estimativa de lucro.
+
+Frente de Caixa (PDV): Interface otimizada para lançamento rápido de pedidos e fechamento de contas.
+
+Gestão de Estoque: Controle rigoroso de insumos com alertas de níveis baixos e histórico de movimentações.
+
+Monitor de Cozinha: Visualização de comandas em tempo real para a equipe de produção, garantindo agilidade no preparo.
+
+Análise de Vendas: Gráficos detalhados de desempenho (Vendas x Hora) para identificar períodos de maior demanda.
+
+Controle Financeiro: Gestão de fluxo de caixa e relatórios gerenciais simples e eficazes.
+
+🛠️ Tecnologias Utilizadas
+O ecossistema Lastros utiliza tecnologias de ponta para garantir performance e escalabilidade:
+
+Frontend: React com Next.js (App Router), Tailwind CSS e Chart.js.
+
+Backend: Node.js com NestJS (ou Express) e integração com banco de dados.
+
+Infraestrutura: Docker para padronização de ambientes.
+
+Design System: Focado em UX/UI minimalista com tons de azul e cinza para reduzir o cansaço visual.
+
 
 
 ---
